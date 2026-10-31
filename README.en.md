@@ -117,7 +117,7 @@ dsh plugin --profile web add link:/absolute/path/to/dsh-pins
 
 ```bash
 node --check index.js && node --check client.js && node --check store.js
-node --test test/
+node --test
 ```
 
 ## License

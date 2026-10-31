@@ -143,7 +143,7 @@ dsh plugin --profile web add link:/absolute/path/to/dsh-pins
 ```bash
 cd dsh-pins
 node --check index.js && node --check client.js && node --check store.js
-node --test test/        # 20 个用例
+node --test        # 20 个用例
 ```
 
 - `test/store.test.mjs`（11）：校验、限额、去重、revision、注入预算、损坏文档降级、快照……

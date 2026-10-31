@@ -24,8 +24,8 @@
     "README.en.md"
   ],
   "scripts": {
-    "test": "node --test test/",
-    "check": "node --check index.js && node --check client.js && node --check store.js && node --test test/"
+    "test": "node --test",
+    "check": "node --check index.js && node --check client.js && node --check store.js && node --test"
   },
   "engines": {
     "node": ">=22"
