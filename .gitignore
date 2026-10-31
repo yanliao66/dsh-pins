@@ -1,0 +1,16 @@
+# Dependencies (this plugin has none, but keep clones clean)
+node_modules/
+
+# Packed artifacts
+*.tgz
+
+# Local data and scratch
+pins.json
+.tmp/
+*.log
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

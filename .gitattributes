@@ -1,0 +1,6 @@
+# Normalize line endings: this is a Node/browser package, so LF everywhere.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.ico binary

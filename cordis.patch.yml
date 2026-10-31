@@ -1,0 +1,7 @@
+# dsh-pins bundle patch — inserts the one row that mounts both halves:
+# the Host half (board storage, /api/dsh-pins routes, memory_pins tool, prompt
+# section) and, through `dsh.client` in package.json, the browser half served
+# as /plugins/dsh-pins/client.js.
+- insert:
+    - id: dsh-pins
+      name: dsh-pins

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Memory Pins",
+    "description": "Pin a note once and every later session carries it: a shared board in the composer dock, a memory_pins tool for the Agent, and automatic system-prompt injection."
+  }
+}
